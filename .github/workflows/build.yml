@@ -1,0 +1,16 @@
+name: Build
+
+on:
+  push:
+    - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: compile-project
+        shell: powershell
+        run: .\compilador.bat
+        
