@@ -34,7 +34,7 @@ uses UnitCalculator;
 procedure TMainForm.btnSumClick(Sender: TObject);
 begin
      var calculator := TCalculator.Create(StrToFloatDef(edtValue1.Text, 0), StrToFloatDef(edtValue2.Text, 0));
-     edtResult.Text := calculator.Soma.ToString;
+     edtResult.Text := calculator.Sum.ToString;
 end;
 
 end.
