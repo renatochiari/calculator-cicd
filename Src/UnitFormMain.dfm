@@ -30,7 +30,7 @@ object MainForm: TMainForm
     Caption = 'Valor 2'
   end
   object Label3: TLabel
-    Left = 343
+    Left = 375
     Top = 40
     Width = 58
     Height = 16
@@ -53,7 +53,7 @@ object MainForm: TMainForm
     TabOrder = 1
   end
   object edtResult: TEdit
-    Left = 343
+    Left = 375
     Top = 62
     Width = 101
     Height = 24
